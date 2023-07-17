@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todo app</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="text-container first">
+        <h1>Todo App</h1>
+      </div>
+      <form id="todo__form">
+        <input
+          type="text"
+          name="todo__input"
+          id="input"
+          placeholder="What do you have planned?"
+        />
+        <input type="submit" id="btn-submit" value="Add task" />
+      </form>
+    </header>
+    <main>
+      <section class="todo-list">
+        <div class="text-container">
+          <h1>Your Todos</h1>
+        </div>
+
+        <div id="todos">
+          <!-- <div class="todo">
+            <div class="todo__content">
+              <input 
+                type="text" 
+                class="text" 
+                value="A new task"
+                readonly>
+            </div>
+            <div class="buttons">
+              <button class="edit">Edit</button>
+              <button class="delete">Delete</button>
+            </div>
+          </div> -->
+        </div>
+      </section>
+    </main>
+    <script src="js/main.js"></script>
+  </body>
+</html>
